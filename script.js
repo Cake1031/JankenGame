@@ -30,6 +30,6 @@ function p_hand(p_random){
     document.getElementById("jankenpon2").src="/JankenGame/images/jan" + p_random + ".png";
 
     document.getElementById("output").innerHTML = 
-    `${p_janken[p_random]}を出しました。相手は${janken[random]}を出しました。<br>
+    `${p_janken[p_random]}を出しました。<br>相手は${janken[random]}を出しました。<br>
     結果は...。${result}`;
 };
